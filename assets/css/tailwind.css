@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+@layer components {
+  .btn {
+    @apply px-3 py-2 bg-blue-500 text-white rounded-md text-sm text-white;
+  }
+  .cart {
+    @apply p-4 rounded-md bg-white shadow-md h-full;
+  }
+}
+
+.material-icons {
+  font-size: 20px;
+  color: rgb(247, 242, 242);   
+}
